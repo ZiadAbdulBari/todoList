@@ -1,0 +1,64 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Todo List</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+    
+        <div class="mobileShape">
+            <div class="upper">
+                <div class="speaker"></div>
+            </div>
+            <div class="lower">
+                <div class="cercle">
+                    <button id="change">C</button>
+                </div>
+            </div>
+            
+
+                <div class="time d-block">
+                    <button class="reload" id="reloadAll">Reload</button>
+                    <p class="float-right mb-0" id="showTime"></p>
+                </div>
+    
+                <div class="contant">
+    
+                    <h4>Your List</h4>
+    
+                    <input type="text" class="form-control" id="input" placeholder="Write List">
+                    <button class="btn btn-info btn-small" id="add"><i class="fas fa-plus"></i></button>
+    
+    
+                    <ul class="list-group list-group-flush" id="ul">
+    
+                        <!-- <li class="list-group-item">
+                                <input type="radio">Cras justo odio 
+                                <button class="btn btn-danger float-right">D</button></li> -->
+    
+                    </ul>
+                </div>
+                <div class="wrapper changePicture">
+                    <h1 class="wallClock"></h1>
+                </div>
+        </div>
+
+    </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
